@@ -2,7 +2,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://remax-monar-backend.onrender.com/api/:path*"
+      "destination": "https://BURAYA-RENDER-BACKEND-LINKINI-YAZIN.onrender.com/api/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
     }
   ]
 }
