@@ -13,7 +13,7 @@ const importData = async () => {
     // İlk adminimizi oluşturuyoruz
     const adminUser = new User({
       username: 'admin',
-      password: 'remax2026', // Şifreyi modelimiz otomatik olarak kriptolayacak
+      password: 'remax2024', // Şifreyi modelimiz otomatik olarak kriptolayacak
       email: 'ouzhankk37@gmail.com',
       role: 'superadmin'
     });
